@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>วัดป่าอนาลโย - Buddhistischer Verein NRW e.V.</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Lucide Icons for clean, modern icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        /* Custom styles for the font and general appearance */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans+Thai:wght@100..900&display=swap');
+        
+        body {
+            font-family: 'Noto Sans Thai', 'Inter', sans-serif;
+            background-color: #f7f7f7; /* Slightly off-white background */
+        }
+        
+        /* Customizing the amber color to match the reference image's warm orange tone */
+        .header-bg {
+            background-color: #f9a825; /* Custom warm amber/orange */
+        }
+        .text-accent {
+            color: #d97706; /* Deeper amber for icons and accents */
+        }
+        
+        /* Ensure all icons are rendered */
+        [data-lucide] {
+            stroke-width: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section (Full Width, Accent Color) -->
+    <header class="header-bg w-full py-8 md:py-12 shadow-lg">
+        <div class="max-w-6xl mx-auto px-6 lg:px-12 text-center">
+            <h1 class="text-3xl md:text-5xl font-extrabold text-white mb-1 tracking-wider">
+                วัดป่าอนาลโย
+            </h1>
+            <p class="text-white text-base md:text-lg font-light">
+                Buddhistischer Verein NRW e.V.
+            </p>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="max-w-6xl mx-auto px-6 lg:px-12 py-8 md:py-16">
+        
+        <!-- Welcome Section -->
+        <section class="mb-12 md:mb-16">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4 text-accent">
+                ยินดีต้อนรับ / Willkommen
+            </h2>
+            <div class="border-t pt-4 border-gray-200">
+                <p class="text-gray-700 mb-4 text-lg">
+                    ขอต้อนรับสู่ **วัดป่าอนาลโย** วัดไทยในประเทศเยอรมัน สถานที่แห่งความสงบและศูนย์รวมจิตใจของชาวพุทธ
+                </p>
+                <p class="text-gray-500 italic text-base">
+                    Willkommen im Buddhistischer Verein NRW e.V. Ein Ort der Ruhe und spirituellen Begegnung für alle Buddhisten und Interessierte.
+                </p>
+            </div>
+        </section>
+
+        <!-- Activities & Contact Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16">
+
+            <!-- Activities Section -->
+            <section>
+                <h2 class="text-2xl md:text-3xl font-bold mb-6 text-accent">
+                    กิจกรรม / Aktivitäten
+                </h2>
+                
+                <div class="space-y-6">
+                    <!-- Activity Item: Online Chanting -->
+                    <div class="flex items-start p-4 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <div class="flex-shrink-0 mr-4 mt-1">
+                            <i data-lucide="book-open" class="text-accent w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-xl mb-1 text-gray-800">
+                                สวดมนต์ออนไลน์ / Online-Chanting
+                            </h3>
+                            <p class="text-gray-700 text-sm">
+                                เราจัดสวดมนต์ออนไลน์เป็นประจำทุกวัน สนใจติดต่อสอบถามรายละเอียดเข้าร่วม <span class="font-medium">สวดมนต์ออนไลน์ไม่เก็บค่าธรรมเนียม</span>
+                            </p>
+                            <p class="text-gray-500 italic text-xs mt-1">
+                                Wir haben täglich Online-Chanting. Kontaktieren Sie uns für Details zur Teilnahme.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Activity Item: Meditation (UPDATED CONTENT) -->
+                    <div class="flex items-start p-4 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <div class="flex-shrink-0 mr-4 mt-1">
+                            <i data-lucide="leaf" class="text-accent w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-xl mb-1 text-gray-800">
+                                วิปัสสนากรรมฐาน / Meditation
+                            </h3>
+                            <p class="text-gray-700 text-sm">
+                                เราจะจัดกิจกรรมในประจำในวัดสำคัญต่างๆ สามารถติดต่อขอรายละเอียดได้โดยตรงที่วัด
+                            </p>
+                            <p class="text-gray-500 italic text-xs mt-1">
+                                Wir veranstalten regelmäßig Aktivitäten in verschiedenen wichtigen Tempeln. Details können direkt beim Tempel erfragt werden.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Activity Item: Almosengang (ใส่บาตร) -->
+                    <div class="flex items-start p-4 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <div class="flex-shrink-0 mr-4 mt-1">
+                            <i data-lucide="sun" class="text-accent w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-xl mb-1 text-gray-800">
+                                ทำบุญใส่บาตร / Almosengang
+                            </h3>
+                            <p class="text-gray-700 text-sm">
+                                ทุกวัน เวลา **09:30 น.**
+                            </p>
+                            <p class="text-gray-500 italic text-xs mt-1">
+                                Täglich um **09:30 Uhr**
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section>
+                <h2 class="text-2xl md:text-3xl font-bold mb-6 text-accent">
+                    ติดต่อ / Kontakt
+                </h2>
+                
+                <div class="space-y-6">
+                    <!-- Main Location -->
+                    <div class="p-4 bg-white rounded-xl shadow-md">
+                        <h3 class="font-semibold text-lg text-gray-800 mb-2">Windeck / Hauptstandort</h3>
+                        <p class="flex items-center text-gray-700 text-sm mb-1">
+                            <i data-lucide="map-pin" class="text-accent w-4 h-4 mr-2 flex-shrink-0"></i>
+                            Im Boden 13, 51570 Windeck, Germany
+                        </p>
+                        <p class="flex items-center text-gray-700 text-sm">
+                            <i data-lucide="phone" class="text-accent w-4 h-4 mr-2 flex-shrink-0"></i>
+                            +49 (0) 2292 922650
+                        </p>
+                    </div>
+
+                    <!-- Dortmund Location -->
+                    <div class="p-4 bg-white rounded-xl shadow-md">
+                        <h3 class="font-semibold text-lg text-gray-800 mb-2">Dortmund</h3>
+                        <p class="flex items-center text-gray-700 text-sm mb-1">
+                            <i data-lucide="map-pin" class="text-accent w-4 h-4 mr-2 flex-shrink-0"></i>
+                            Wittener Str. 177, 44149 Dortmund, Germany
+                        </p>
+                        <p class="flex items-center text-gray-700 text-sm">
+                            <i data-lucide="phone" class="text-accent w-4 h-4 mr-2 flex-shrink-0"></i>
+                            +49 (0) 231 20 69 8868
+                        </p>
+                    </div>
+
+                    <!-- Social/Web Group -->
+                    <div>
+                        <!-- Line ID -->
+                        <div class="flex items-center text-gray-700 text-sm mb-1">
+                            <i data-lucide="message-circle" class="text-accent w-5 h-5 mr-3 flex-shrink-0"></i>
+                            <span class="text-gray-700">Line ID: @345idtdv</span>
+                        </div>
+                        <!-- Facebook -->
+                        <div class="flex items-center text-gray-700 text-sm">
+                            <i data-lucide="facebook" class="text-accent w-5 h-5 mr-3 flex-shrink-0"></i>
+                            <a href="https://facebook.com/w.analayo" target="_blank" class="hover:text-amber-600 transition-colors">facebook.com/w.analayo</a>
+                        </div>
+                    </div>
+
+                    <!-- Opening Hours -->
+                    <div>
+                        <h3 class="flex items-center text-lg font-semibold mb-2 text-accent">
+                            <i data-lucide="clock" class="text-accent w-5 h-5 mr-2"></i>
+                            เวลาเปิด / Öffnungszeiten
+                        </h3>
+                        <p class="text-gray-700 text-sm">
+                            วันเสาร์-อาทิตย์: **09:00 - 18:00 น.**
+                        </p>
+                        <p class="text-gray-500 italic text-sm">
+                            Samstag-Sonntag: **09:00 - 18:00 Uhr**
+                        </p>
+                        <p class="text-gray-700 text-sm mt-1">
+                            วันธรรมดา: **09:00 - 18:00 น.**
+                        </p>
+                        <p class="text-gray-500 italic text-sm">
+                            Montag-Freitag: **09:00 - 18:00 Uhr**
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
+        <div class="border-t my-12 md:my-16 border-gray-200"></div>
+
+        <!-- About Us Section -->
+        <section>
+            <h2 class="text-2xl md:text-3xl font-bold mb-4 text-accent">
+                เกี่ยวกับเรา / Über uns
+            </h2>
+            <div class="border-t pt-4 border-gray-200">
+                <p class="text-gray-700 mb-4 text-lg">
+                    วัดป่าอนาลโย เมืองวินเด็ค ประเทศเยอรมนี ก่อตั้งโดยพระอาจารย์ชัชวาลย์ สุภทฺโท ตั้งแต่ปี **2532** (ค.ศ. **1989**) และได้รับการพัฒนาเป็นวัดไทยนิกายธรรมยุติกนิกายที่ได้รับการรับรองทางกฎหมาย โดยได้จัดพิธีผูกพัทธสีมาครั้งแรกในประเทศเยอรมนีเมื่อปี **2550** (ค.ศ. **2007**). ปัจจุบันวัดเป็นศูนย์รวมของชุมชนชาวไทยและชาวพุทธในเยอรมนี เราให้บริการทางจิตใจ การสอนธรรมะ และการทำกิจกรรมทางศาสนาตามประเพณีเถรวาทแบบครบถ้วน
+                </p>
+                <p class="text-gray-500 italic text-base">
+                    Der **Wat Pah Analayo** in Windeck, Deutschland, wurde im Jahr **1989** (B.E. **2532**) von Phra Ajahn Chatchawan Subhaddo gegründet. Er entwickelte sich zu einem gesetzlich anerkannten Thai-Tempel der Dhammayuttika Nikaya und hielt **2007** (B.E. **2550**) die erste Patthasima-Zeremonie in Deutschland ab. Heute dient der Tempel als spirituelles Zentrum für die thailändische und buddhistische Gemeinschaft in Deutschland und bietet spirituelle Unterstützung, Dhamma-Unterricht sowie religiöse Aktivitäten gemäß der Theravada-Tradition.
+                </p>
+            </div>
+        </section>
+
+    </main>
+    
+    <!-- Script to automatically replace data-lucide tags with SVGs -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
